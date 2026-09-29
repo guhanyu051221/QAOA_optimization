@@ -1,0 +1,12 @@
+Fixed-parameter QAOA export
+budget = 4
+layers = 4
+eta = 6.0
+shots suggested for hardware = 1000
+parameters = [0.03572766, 0.11688645, 0.02639345, 0.22500591, -0.00097934, -0.03978164, -0.26076253, -0.15046207]
+highest ideal-probability selection = 100111
+highest ideal probability = 0.0373369155
+
+For the OriginIR editor, paste qaoa_fixed_params.originir.
+Upload qaoa_fixed_params.qasm only if the cloud platform accepts OpenQASM.
+After hardware execution, compare hardware counts/shots with ideal_probabilities.csv.

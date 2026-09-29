@@ -1,0 +1,15 @@
+Maxiter Scan Report
+================================================================================
+
+maxiter values: [50, 100, 200, 300, 500]
+repeat count: 10
+fixed eta: 6
+fixed layers: 4
+variance: sample variance, ddof=1
+plots: mean values with standard deviation error bars
+
+maxiter=50: min_loss_mean=-8.45187100, min_loss_var=6.07139371, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.03131801, prob_var=0.00004074, elapsed_s_mean=13.07, elapsed_s_var=11.36, result_mode=110101 (10/10)
+maxiter=100: min_loss_mean=-11.33692592, min_loss_var=2.57638225, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.03916824, prob_var=0.00008007, elapsed_s_mean=20.97, elapsed_s_var=1.93, result_mode=110101 (10/10)
+maxiter=200: min_loss_mean=-11.61632979, min_loss_var=0.46982923, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.03853990, prob_var=0.00003816, elapsed_s_mean=59.56, elapsed_s_var=559.21, result_mode=110101 (10/10)
+maxiter=300: min_loss_mean=-12.77497141, min_loss_var=0.51318692, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.05021294, prob_var=0.00005943, elapsed_s_mean=59.35, elapsed_s_var=7.23, result_mode=110101 (10/10)
+maxiter=500: min_loss_mean=-12.31385498, min_loss_var=1.25811326, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04743499, prob_var=0.00008431, elapsed_s_mean=89.21, elapsed_s_var=53.89, result_mode=110101 (10/10)

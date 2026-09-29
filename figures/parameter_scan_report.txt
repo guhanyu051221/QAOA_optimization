@@ -1,0 +1,56 @@
+Parameter Scan Experiment Report
+================================================================================
+
+Experiment Configuration:
+  Repeats per parameter: 10
+  Seed base: 123456
+  Default eta: 6
+  Default layers: 4
+  Default maxiter: 250
+
+Scan Ranges:
+  Eta: [0, 2, 4, 6, 8, 10]
+  Layers: [1, 2, 3, 4, 5, 6]
+  Maxiter: [200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300]
+
+Variance uses sample variance, ddof=1.
+Plots use mean values; error bars are standard deviations.
+
+================================================================================
+Eta Scan
+================================================================================
+eta=0: min_loss_mean=-0.00047379, min_loss_var=0.00000003, value_mean=-0.00142056, value_var=0.00000000, prob_mean=0.07834552, prob_var=0.00705821, result_mode=111101 (10/10)
+eta=2: min_loss_mean=-4.30266463, min_loss_var=0.04523358, value_mean=-5.00121916, value_var=0.00000000, prob_mean=0.04887130, prob_var=0.00004783, result_mode=110101 (10/10)
+eta=4: min_loss_mean=-8.65703915, min_loss_var=0.14347149, value_mean=-10.00121916, value_var=0.00000000, prob_mean=0.05150210, prob_var=0.00005109, result_mode=110101 (10/10)
+eta=6: min_loss_mean=-12.07658274, min_loss_var=1.05112338, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04474518, prob_var=0.00005959, result_mode=110101 (10/10)
+eta=8: min_loss_mean=-14.12912175, min_loss_var=2.80626450, value_mean=-20.00121916, value_var=0.00000000, prob_mean=0.03840176, prob_var=0.00004389, result_mode=110101 (10/10)
+eta=10: min_loss_mean=-16.49427878, min_loss_var=13.59191501, value_mean=-25.00121916, value_var=0.00000000, prob_mean=0.03641491, prob_var=0.00007863, result_mode=110101 (10/10)
+Best by mean min_loss: eta=10 (mean=-16.49427878, var=13.59191501)
+
+================================================================================
+Layer Scan
+================================================================================
+layers=1: min_loss_mean=-7.87740847, min_loss_var=8.86297936, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.02806325, prob_var=0.00005741, result_mode=110101 (10/10)
+layers=2: min_loss_mean=-11.35624804, min_loss_var=1.37996557, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.03799615, prob_var=0.00003770, result_mode=110101 (10/10)
+layers=3: min_loss_mean=-11.75477582, min_loss_var=1.06402580, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04202235, prob_var=0.00004747, result_mode=110101 (10/10)
+layers=4: min_loss_mean=-12.71345131, min_loss_var=1.05730442, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04823701, prob_var=0.00008524, result_mode=110101 (10/10)
+layers=5: min_loss_mean=-11.67832689, min_loss_var=4.80660587, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04341856, prob_var=0.00014058, result_mode=110101 (10/10)
+layers=6: min_loss_mean=-12.11101933, min_loss_var=3.13699555, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04543350, prob_var=0.00007623, result_mode=110101 (10/10)
+Best by mean min_loss: layers=4 (mean=-12.71345131, var=1.05730442)
+
+================================================================================
+Maxiter Scan
+================================================================================
+maxiter=200: min_loss_mean=-11.66574960, min_loss_var=1.91625067, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04231680, prob_var=0.00002311, result_mode=110101 (10/10)
+maxiter=210: min_loss_mean=-12.24637957, min_loss_var=0.93564726, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04436284, prob_var=0.00003868, result_mode=110101 (10/10)
+maxiter=220: min_loss_mean=-11.63834155, min_loss_var=1.42422140, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04096234, prob_var=0.00005038, result_mode=110101 (10/10)
+maxiter=230: min_loss_mean=-12.70602734, min_loss_var=0.76414175, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04976311, prob_var=0.00007624, result_mode=110101 (10/10)
+maxiter=240: min_loss_mean=-12.62990507, min_loss_var=0.82033059, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04745705, prob_var=0.00007976, result_mode=110101 (10/10)
+maxiter=250: min_loss_mean=-12.30803173, min_loss_var=0.43676311, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04300531, prob_var=0.00002952, result_mode=110101 (10/10)
+maxiter=260: min_loss_mean=-12.46289335, min_loss_var=1.51942772, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04703704, prob_var=0.00009542, result_mode=110101 (10/10)
+maxiter=270: min_loss_mean=-11.66379559, min_loss_var=3.00564023, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04167568, prob_var=0.00010267, result_mode=110101 (10/10)
+maxiter=280: min_loss_mean=-12.51304706, min_loss_var=1.75577587, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04864159, prob_var=0.00006947, result_mode=110101 (10/10)
+maxiter=290: min_loss_mean=-12.74860894, min_loss_var=0.58146986, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04883055, prob_var=0.00005287, result_mode=110101 (10/10)
+maxiter=300: min_loss_mean=-12.45925515, min_loss_var=0.79217426, value_mean=-15.00121916, value_var=0.00000000, prob_mean=0.04762838, prob_var=0.00008104, result_mode=110101 (10/10)
+Best by mean min_loss: maxiter=290 (mean=-12.74860894, var=0.58146986)
+

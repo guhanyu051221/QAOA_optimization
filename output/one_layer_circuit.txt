@@ -1,0 +1,16 @@
+Single-layer QAOA structure for this project (n=6):
+H^{\otimes 6}
+-> cost layer: product_i Rz(2 * gamma * h_i) and product_{i<j} Rzz(2 * gamma * J_ij)
+-> mixer layer: product_i Rx(2 * beta)
+
+Representative text diagram from the validated run:
+
+     ┌───┐ ░ ┌────────────────────────┐
+q_0: ┤ H ├─░─┤ Rz(12.0007781306932*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+q_1: ┤ H ├─░─┤ Rz(12.0010927838679*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+q_2: ┤ H ├─░─┤ Rz(12.0003520663203*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+q_3: ┤ H ├─░─┤ Rz(12.0003464703229*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+q_4: ┤ H ├─░─┤ Rz(12.0000232759339*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+q_5: ┤ H ├─░─┤ Rz(12.0005434461356*γ) ├─ ... all-to-all Rzz ... ─░─┤ Rx(2*β) ├─░
+
+For q=0.5 and eta=6, J_ij = 6 + 0.125 * Sigma_ij, so the Rzz angles are dominated by the penalty term.

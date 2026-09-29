@@ -1,0 +1,9 @@
+numpy==1.19.5
+cvxpy==1.1.11
+pandas==1.1.5
+qpsolvers==1.7.0
+cvxopt==1.2.6
+xlrd==1.2.0
+scipy==1.5.4
+qiskit==0.46.0
+qiskit_aer==0.12.0
